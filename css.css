@@ -1,0 +1,42 @@
+body{background-color: black; color: white; text-align: center;}
+
+#containerPrincipal{background-color: tomato; padding: 2%; border-radius: 10px; margin:3%;}
+
+header{display:grid;
+     background-image: url(https://img.freepik.com/fotos-gratis/ceu-estrelado_1048-11828.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699315200&semt=sph);}
+
+h1{position: absolute;
+     margin-left: 90px; color: tomato;}
+
+#ModalMenu{display: none; /*Iniciando com o modal fechado*/ 
+    position: fixed; /*Abrir modal sobreposto*/
+    width: 200px; height: 800px; padding-top: 50px; 
+    background-color: black; opacity: .9;}
+    #BtnXModalMenu{margin: 0px 350px; background-color: black; opacity: 0.9; color: white; border-radius: 50%; padding: 10px;}/*Btn fechar 'X'*/
+    
+#seleção:hover{background-color: aliceblue; color: black;}    
+
+#Box{display: inline-block; /* <-- Deixando imgs lado a lado responsivamente*/
+    margin: 1%; box-shadow: 0px 0px 12px 3px black; border-radius: 10px; background-color: rgb(68, 60, 60);
+    margin-top: 4%;} 
+
+    img{border-radius: 10px 10px 0px 0px;}
+    legend{margin: 1%}
+    #BtnConhecerMais{margin: 3%; padding: 2%;}
+    #BtnConhecerMais:hover{background-color: black; color: tomato;}    
+
+#ModalAnuncio{background-color: black; 
+    position: relative;
+    height: auto;
+    display: none;
+    border-radius: 15px;}   
+    #BtnXModalAnuncio{margin-left: 300px; color: gray;} 
+
+#icon{width: 40px; border-radius: 10px; margin: 20px 10px;} 
+
+#SetaDir{width: 20px;}/*Seta de navegação lado Direito*/
+#SetaEsq{width: 20px;}/*Seta de navegação lado Esquerdo*/
+
+footer{color: gray;}
+
+p{text-align: justify; margin: 3%;} /*Paragrafo texto sobre o site*/
